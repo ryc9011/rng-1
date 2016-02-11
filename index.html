@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>The Great RNGesus</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  
+</head>
+
+<body>
+
+<div class="main">
+  <p>What will RNGesus give you?</p>
+    <button onclick="rngFunction()">Roll</button>
+    
+    <p id="demo"></p>
+    
+    <script>
+    function rngFunction() {
+	    var x = Math.floor((Math.random() * 10) + 1);
+	    document.getElementById("demo").innerHTML = x;
+    }
+    </script>
+</div>
+
+</body>
+</html>
