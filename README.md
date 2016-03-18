@@ -1,2 +1,2 @@
 # rng-1
-RNG
+simple javascript rng. why did i make this
